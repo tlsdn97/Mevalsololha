@@ -19,6 +19,9 @@ bool Collider::IsCollision(shared_ptr<Collider> other)
 {
 	// TODO
 	// 알고보니까 other == rect?
-
-	return false;
+	auto rectCollider = dynamic_pointer_cast<RectCollider>(other);
+	if (!rectCollider)
+	{
+		return false;
+	}
 }

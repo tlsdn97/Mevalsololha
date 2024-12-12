@@ -83,9 +83,6 @@
     <ClCompile Include="Objects\Collider.cpp">
       <Filter>Object</Filter>
     </ClCompile>
-    <ClCompile Include="Scenes\CollisionScene.cpp">
-      <Filter>Object</Filter>
-    </ClCompile>
     <ClCompile Include="Objects\Line.cpp">
       <Filter>Object</Filter>
     </ClCompile>
@@ -95,14 +92,17 @@
     <ClCompile Include="Scenes\PaintScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="Objects\RectCollider.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
     <ClCompile Include="Scenes\Scene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
     <ClCompile Include="Math\Vector2.cpp">
       <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\CollisionScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\RectCollider.cpp">
+      <Filter>Object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

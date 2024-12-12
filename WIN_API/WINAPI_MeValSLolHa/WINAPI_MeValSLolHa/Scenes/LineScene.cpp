@@ -11,7 +11,7 @@ LineScene::LineScene()
 	// _line2의 길이를 floor에 비치는 line1의 그림자 길이만큼 'floor의 방향'으로 커지게 그려주세요.
 
 	// TODO
-	//_floor = make_shared<Line>(Vector2D(0, 600), Vector2D(2000, 300));
+	_floor = make_shared<Line>(Vector2D(0, 600), Vector2D(2000, 300));
 }
 
 LineScene::~LineScene()

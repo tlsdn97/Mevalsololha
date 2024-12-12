@@ -22,6 +22,7 @@ void RectCollider::Render(HDC hdc)
 	Rectangle(hdc, Left(), Top(), Right(), Bottom());
 }
 
+
 bool RectCollider::IsCollision(const Vector2D& pos)
 {
 	if (pos.x > Right()) return false;
