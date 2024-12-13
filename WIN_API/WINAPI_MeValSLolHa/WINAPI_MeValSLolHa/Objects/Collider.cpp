@@ -19,9 +19,18 @@ bool Collider::IsCollision(shared_ptr<Collider> other)
 {
 	// TODO
 	// 알고보니까 other == rect?
-	auto rectCollider = dynamic_pointer_cast<RectCollider>(other);
-	if (!rectCollider)
+	auto rect = dynamic_pointer_cast<RectCollider>(other);
+	if (rect != nullptr)
 	{
-		return false;
+		return IsCollision(rect);
 	}
+	// 
+	// auto circle = dynamic_pointer_cast<CircleCollider>(other);
+	// {
+	// 	if (circle != nullptr)
+	// 	{
+	// 		return IsCollision(circle);
+	// 	}
+	// }
+ return false;
 }
